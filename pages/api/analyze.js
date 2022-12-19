@@ -68,6 +68,7 @@ const analyzeAction = async (req, res) => {
     );
     console.log(studyLink);
     const studyInfo = await studyLink.json();
+    console.log(studyInfo);
 
     // find the abstract section of the study
     const abstract = studyInfo.documents[0].passages.find(
