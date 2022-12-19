@@ -91,6 +91,7 @@ const analyzeAction = async (req, res) => {
     );
     res.status(200).json({ output: responses });
   } catch (error) {
+    console.log(error);
     res.status(200).json({ output: "Not Found" });
   }
 };
