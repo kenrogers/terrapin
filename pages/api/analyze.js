@@ -66,9 +66,7 @@ const analyzeAction = async (req, res) => {
     const studyLink = await fetch(
       `https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/${pubMedId}/unicode`
     );
-    console.log(studyLink);
     const studyInfo = await studyLink.json();
-    console.log(studyInfo);
 
     // find the abstract section of the study
     const abstract = studyInfo.documents[0].passages.find(
@@ -91,7 +89,7 @@ const analyzeAction = async (req, res) => {
     );
     res.status(200).json({ output: responses });
   } catch (error) {
-    console.log(error);
+    console.log(error.data.error);
     res.status(200).json({ output: "Not Found" });
   }
 };
