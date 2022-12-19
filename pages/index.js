@@ -52,7 +52,7 @@ const Home = () => {
           Enter a PubMed URL into the text box below, and Terrapin will generate
           a summary of the study goals, conclusions reached, an overview of the
           methodology used, any potential methodological flaws in the study
-          design, and any philosophical biases or presuppositions contained, all
+          design, and any potential moral implications of the study, all
           explained in simple terms anyone can understand.
         </p>
         <div
