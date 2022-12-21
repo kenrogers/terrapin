@@ -84,20 +84,20 @@ const Home = () => {
           <li>
             <a
               className="font-bold underline text-cyan-500"
-              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8443442/"
+              href="https://pubmed.ncbi.nlm.nih.gov/30754681/"
               target="_blank"
             >
-              Behavioural nudges increase COVID-19 vaccinations
+              Conjugated Linoleic Acid Effects on Cancer, Obesity, and
+              Atherosclerosis
             </a>
           </li>
           <li>
             <a
               className="font-bold underline text-cyan-500"
-              href="https://pubmed.ncbi.nlm.nih.gov/34836139/"
+              href="https://pubmed.ncbi.nlm.nih.gov/33966809/"
               target="_blank"
             >
-              The Impact of Vegan and Vegetarian Diets on Physical Performance
-              and Molecular Signaling in Skeletal Muscle
+              LDL cholesterol and atherosclerosis: The evidence
             </a>
           </li>
         </ul>
